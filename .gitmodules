@@ -1,0 +1,3 @@
+[submodule "justgo-planet"]
+	path = justgo-planet
+	url = https://github.com/enamulkhanbd/planet-v1.0.git
