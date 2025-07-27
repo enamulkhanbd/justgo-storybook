@@ -1,5 +1,8 @@
 import type { Preview } from "@storybook/react-vite";
 
+// Import the generated CSS variables
+import '../build/css/variables.css';
+
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },

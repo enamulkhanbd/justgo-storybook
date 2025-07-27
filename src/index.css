@@ -1,3 +1,6 @@
+/* Import the generated CSS variables */
+@import '../../build/css/variables.css';
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

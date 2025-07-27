@@ -1,12 +1,12 @@
-import { registerTransforms } from '@tokens-studio/sd-transforms';
-import StyleDictionary from 'style-dictionary';
+const { registerTransforms } = require('@tokens-studio/sd-transforms');
+const StyleDictionary = require('style-dictionary');
 
 // Register the Tokens Studio transforms
 registerTransforms(StyleDictionary);
 
-export default {
+module.exports = {
     // The source path should point to the JSON files in your submodule
-    source: ['tokens/**/*.json'], // Adjust this path to match your submodule's structure
+    source: ['justgo-planet/justgo/tokens/**/*.json'], // Path to the tokens in the justgo-planet submodule
 
     platforms: {
         css: {
